@@ -1,0 +1,79 @@
+contacts:
+
+    - !!models.Contact
+        id:     1
+        name:   Donald Duck
+        title:  Mr. Temperament
+        email:  donald.duck@disney.com
+
+    - !!models.Contact
+        id:     2
+        name:   Mickey Mouse
+        title:  Detective
+        email:  mickey.mouse@disney.com
+
+    - !!models.Contact
+        id:     3
+        name:   Carl Barks
+        title:  Illustrator
+        email:  carl.barks@disney.com
+
+    - !!models.Contact
+        id:     4
+        name:   Don Rosa
+        title:  Illustrator
+        email:  don.rosa@disney.com
+
+    - !!models.Contact
+        id:     5
+        name:   Goofy
+        title:  Anthropomorphic dog
+        email:  goofy@disney.com
+
+    - !!models.Contact
+        id:     6
+        name:   Pluto
+        title:  Mickeys Dog
+        email:  pluto@disney.com
+
+    - !!models.Contact
+        id:     7
+        name:   Arizona Goof
+        title:  Archaeologist
+        email:  a.goof@disney.com
+
+    - !!models.Contact
+        id:     8
+        name:   Grandma Duck
+        title:  Grandma
+        email:  grandma@disney.com
+
+    - !!models.Contact
+        id:     9
+        name:   Gladstone Gander
+        title:  Lucky guy
+        email:  gladstone.gander@disney.com
+
+    - !!models.Contact
+        id:     10
+        name:   Fethry Duck
+        title:  Beatnik
+        email:  fethry.duck@disney.com
+
+    - !!models.Contact
+        id:     11
+        name:   Daisy Duck
+        title:  Donald's girlfriend
+        email:  daisy.duck@disney.com
+
+    - !!models.Contact
+        id:     12
+        name:   Scrooge McDuck
+        title:  Business duck
+        email:  scrooge.mcduck@disney.com
+
+    - !!models.Contact
+        id:     13
+        name:   Ludwig von Drake
+        title:  Professor
+        email:  ludwig.drake@disney.com
