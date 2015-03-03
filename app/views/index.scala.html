@@ -2,23 +2,19 @@
 
 @main("Play!ing with DataTables") {
 
-  <script type="text/javascript">
-  /* Table initialisation */
+<script type="text/javascript">
   $(document).ready(function() {
-    $('#contacts_table').dataTable( {
-      "bProcessing": true,
-      "aaSorting": [[ 0, "asc" ]],
-      "bServerSide": true,
-      "bJQueryUI": true,
-      "sPaginationType": "full_numbers",
-      "sAjaxSource": "@routes.Application.list()"
+    $('#contacts').dataTable( {
+        "processing": true,
+        "serverSide": true,
+        "ajax": "@routes.Application.list()"
     } );
-  } );
-  </script>
+} );
+</script>
 
   <h2>Play!ing with DataTables</h2>
 
-  <table id="contacts_table" class='display'>
+  <table id="contacts" class='display'>
     <thead>
         <tr>
             <th>Name</th>
@@ -26,12 +22,5 @@
             <th>E-mail</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td>Row 1 Data 1</td>
-            <td>Row 1 Data 2</td>
-            <td>etc</td>
-        </tr>
-    </tbody>
 </table>
 }
